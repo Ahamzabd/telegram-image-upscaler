@@ -243,8 +243,8 @@ if __name__ == '__main__':
     import requests
 try:
     public_ip = requests.get('https://api.ipify.org').text
-    print(f"\n📡 Mobile Access URL: https://t.me/your_bot_name?start=test")
-    print(f"🔗 Or connect via local IP: http://{public_ip}:5000 (if port forwarded)")
+    print(f"\n📡 Mobile Access URL: https://t.me/@Image_upscaler_free_bot?start=test")
+    print(f"🔗 Or connect via local IP: http://37.111.217.76 :5000 (if port forwarded)")
 except:
     print("⚠️ Couldn't fetch public IP. Use same Wi-Fi as computer.")
     updater.start_polling()  # Keep this line
