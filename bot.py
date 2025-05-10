@@ -240,3 +240,4 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+    updater.start_polling()  # Keep this line
